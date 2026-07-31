@@ -1,22 +1,71 @@
 aid: octant-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/octant-bio.png
 name: Octant Bio
-description: Octant Bio is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Octant (Octant Bio) is a precision-medicine and therapeutics company based in
+  Emeryville, California, founded by Sri Kosuri and Ramsey Homsany. Octant
+  engineers small-molecule drugs that modulate cellular mechanisms behind serious
+  disease, with a focus on protein misfolding and mistrafficking disorders. Its
+  Navigator platform merges synthetic biology, massively parallel experimentation
+  in human cells, high-throughput chemistry, and AI/ML to understand and modulate
+  how target proteins actually behave inside cells. Programs span rare genetic
+  diseases (including autosomal dominant retinitis pigmentosa and Fabry disease),
+  oncology, metabolism, and immunology. Octant is backed by Andreessen Horowitz
+  (a16z) and Catalio Capital Management. As of this profile Octant publishes no
+  public developer API, SDK, or developer portal; this record captures the
+  company's public web identity in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/octant-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Catalio Capital Management
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Precision Medicine
+- Drug Discovery
+- Therapeutics
+- Synthetic Biology
+- Pharmaceuticals
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://www.octant.bio/
+- type: About
+  url: https://www.octant.bio/about
+- type: Blog
+  url: https://www.octant.bio/blog
+- type: Support
+  url: https://www.octant.bio/contact
+- type: PrivacyPolicy
+  url: https://www.octant.bio/privacy-policy
+- type: DomainSecurity
+  url: security/octant-bio-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
